@@ -1,34 +1,22 @@
-area[name="Bergstraße"];
-area[name="Heidelberg"];
-area[name="Mannheim"];
-area[name="Rhein-Neckar-Kreis"];
-way(area)["highway"="motorway"];/*(49.126,8.251,49.888,9.055);*/
+area[name~"^(Bergstraße|Heidelberg|Mannheim|Rhein-Neckar-Kreis)$"];
+way(area)["highway"="motorway"];
 (._;>;);
 out;
 
 
-area[name="Bergstraße"];
-area[name="Heidelberg"];
-area[name="Mannheim"];
-area[name="Rhein-Neckar-Kreis"];
+area[name~"^(Bergstraße|Heidelberg|Mannheim|Rhein-Neckar-Kreis)$"];
 way(area)["landuse"="forest"];
 (._;>;);
 out;
 
 
-area[name="Bergstraße"];
-area[name="Heidelberg"];
-area[name="Mannheim"];
-area[name="Rhein-Neckar-Kreis"];
+area[name~"^(Bergstraße|Heidelberg|Mannheim|Rhein-Neckar-Kreis)$"];
 way(area)["natural"="wood"];
 (._;>;);
 out;
 
 
-area[name="Bergstraße"];
-area[name="Heidelberg"];
-area[name="Mannheim"];
-area[name="Rhein-Neckar-Kreis"];
+area[name~"^(Bergstraße|Heidelberg|Mannheim|Rhein-Neckar-Kreis)$"];
 way(area)["landcover"="trees"];
 (._;>;);
 out;
